@@ -158,6 +158,10 @@
   background-color: #467370 !important;
 }
 
+.btn-sm {
+  padding: 0.5rem 1.25rem;
+}
+
 .about-section {
   padding-top: 5rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
@@ -173,6 +177,24 @@
 
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.projects-section .featured-text .btn {
+  margin: 1rem 0;
+}
+
+.projects-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-section ul li {
+  margin: 1rem 0;
+}
+
+.projects-section ul li strong {
+  color: #64a19d;
 }
 
 @media (min-width: 992px) {
